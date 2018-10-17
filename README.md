@@ -36,8 +36,8 @@ html
     <div>
       <confirm-modal 
         :confrimMesasge=confrimMesasge 
-        @onHandeleCancle='handleCancleOrder' 
-        @onHandeleOnOK='handleOnOkOrder'
+        @onHandeleCancle='handleOnCancle' 
+        @onHandeleOnOK='handleOnOk'
       />
     </div>
   </template>
@@ -78,3 +78,18 @@ okColor | String | #4d4d4d | ok button background color
 cancelText | String | 不帅 | the cancel text
 onText | String | 帅 | the ok text
 marginTop | String | 30% | margin top
+
+### Event
+When you press the confirm button，return true， tigger handleOnOk(data)
+```javascript
+    handleOnOk (data) {
+      console.log(data) // true
+    }
+
+```
+When you press the cancel button，return false， tigger handleOnCancle(data)
+```javascript
+    handleOnCancle (data) {
+      console.log(data) // false
+    }
+```
