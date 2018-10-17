@@ -34,7 +34,7 @@ html
 ```html
   <template>
     <div>
-      <confirm-modal 
+      <confirm-dialog 
         :confrimMesasge=confrimMesasge 
         @onHandeleCancle='handleOnCancle' 
         @onHandeleOnOK='handleOnOk'
