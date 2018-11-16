@@ -1,5 +1,9 @@
 # P-DIALOG-MODAL
 
+![](https://img.shields.io/badge/webpack-3.9.1-blue.svg)
+![](https://img.shields.io/badge/vue-2.5.9-brightgreen.svg)
+![](https://img.shields.io/badge/Author-PDK-yellow.svg)
+
 ## Explain
 1 . Confirm Dialog Modal
 
