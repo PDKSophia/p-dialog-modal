@@ -58,7 +58,6 @@ html
       :cancelText="confirmModal.cancelText"
       :submitText="confirmModal.submitText"
       :cssStyle="confirmModal.cssStyle"
-      :noneToastText="confirmModal.noneToastText"
       :isMarginTop="confirmModal.isMarginTop"
       @onHandleCancel="handleOnCancel"
       @onHandleOnOk="handleOnOk"

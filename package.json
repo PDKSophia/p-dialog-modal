@@ -1,6 +1,6 @@
 {
   "name": "p-dialog-modal",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "❤ 弹窗组件，自己的第一个npm包，适合新手",
   "main": "dist/pdkModal.min.js",
   "scripts": {
