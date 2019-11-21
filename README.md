@@ -4,6 +4,9 @@
 ![](https://img.shields.io/badge/vue-2.5.9-brightgreen.svg)
 ![](https://img.shields.io/badge/Author-PDK-yellow.svg)
 
+## npm address
+npm address in here : https://www.npmjs.com/package/p-dialog-modal
+
 ## Explain
 
 1 . Confirm Dialog Modal
